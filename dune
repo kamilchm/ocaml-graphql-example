@@ -1,0 +1,7 @@
+(executable
+  (name server)
+  (libraries digestif.c lwt lwt.unix graphql-lwt graphql-cohttp cohttp-lwt cohttp-lwt-unix))
+
+(alias
+  (name DEFAULT)
+  (deps server.exe))

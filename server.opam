@@ -1,0 +1,19 @@
+opam-version: "2.0"
+name: "ocaml-graphql-example"
+authors: "Kamil"
+homepage: "https://github.com/kamilchm/ocaml-graphql-example"
+maintainer: "kamil.chm@gmail.com"
+dev-repo: "git+ssh://git@github.com:kamilchm/ocaml-graphql-example.git"
+bug-reports: "https://github.com/kamilchm/ocaml-graphql-example/issues"
+version: "0.1"
+depends: [
+  "dune" {build}
+  "opam-lock" {dev}
+  "merlin" {dev}
+  "utop" {dev}
+  "lwt"
+  "cohttp-lwt"
+  "cohttp-lwt-unix"
+  "graphql-lwt"
+  "graphql-cohttp"
+]
